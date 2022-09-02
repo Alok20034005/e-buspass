@@ -1,0 +1,72 @@
+.bdy{
+    background-color: #d9eeef;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding: 0px;
+  border: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.hadder{
+    background: #07234b;
+    text-align: center;
+    padding: 0px;
+}
+
+.middle{
+    text-align: center;
+
+}
+
+.img-middle{
+    height: 700px;
+}
+
+.pass_no{
+    position: absolute;
+    top: 720px;
+    left: 670px;
+    font-size: 40px;
+    color: red;
+    animation: blinker 1s infinite
+}
+
+@keyframes blinker {
+    from { opacity: 1.0; }
+    50% { opacity: 0.1; }
+    to { opacity: 1.0; }
+}
+
+
+.fotter{
+    background:#01a2a6;
+    height: 200px;
+    
+}
+
+.ftext{
+     text-align: center;
+     padding-top: 70px;
+     padding-bottom: 100px;
+}
+
+.img{
+    padding-top: 34px;
+    size: 10px;
+    width: 127px;
+    height: 97px;
+    padding-bottom: 0px;
+}
+
+.text{
+    font-size: 30px;
+    color: aqua;
+    padding-top:  0px;
+    padding-bottom: 15px
+}
+
+
+
